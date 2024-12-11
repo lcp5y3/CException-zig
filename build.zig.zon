@@ -1,0 +1,14 @@
+.{
+    .name = "cexception_zig",
+    .version = "0.0.0",
+    .dependencies = .{
+        .CException = .{
+            .url = "https://github.com/ThrowTheSwitch/CException/archive/refs/tags/v1.3.4.tar.gz",
+            .hash = "1220b47be065403acbc35e164646bc95b06a1d520e5e4ea0aa7d442813fae8d21c4e",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
