@@ -6,6 +6,10 @@
             .url = "https://github.com/ThrowTheSwitch/CException/archive/refs/tags/v1.3.4.tar.gz",
             .hash = "1220b47be065403acbc35e164646bc95b06a1d520e5e4ea0aa7d442813fae8d21c4e",
         },
+        .unity_zig = .{
+            .url = "git+https://github.com/lcp5y3/Unity-zig.git?ref=v2.6.0#b87a12657df43f246d77535d8691567d477275ca",
+            .hash = "1220b91270ee79fd522b137838a260922466929bec6405fdeed2cc894faf3bd6176b",
+        },
     },
     .paths = .{
         "build.zig",
